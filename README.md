@@ -30,6 +30,12 @@ Output:
 [' ', ' ', 5, 2, ' ', 9, 7, ' ', ' '] <br>
 [' ', 6, 3, 4, ' ', 7, 2, 5, ' '] <br>
 
+## Dependencies
+
+- OpenCV
+- EasyOCR
+- Python 3.x
+
 ## Usage
 
 To use the Sudoku Image to Digital Array Converter, follow these steps:
@@ -37,12 +43,6 @@ To use the Sudoku Image to Digital Array Converter, follow these steps:
 1. Capture an image of the Sudoku puzzle using a camera.
 2. Run the provided Python code, which employs OpenCV for image processing and EasyOCR for optical character recognition.
 3. Obtain the digital representation of the Sudoku puzzle as an array.
-
-## Dependencies
-
-- OpenCV
-- EasyOCR
-- Python 3.x
 
 ## Contribution
 
