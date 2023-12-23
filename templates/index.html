@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <div id="Sudoku" >
+        <img class="Sudoku" src="static/img/sudoku.png" alt="Sudoku">
+    </div>
+
+    <div class="background-wrapper">
+        <div class="background-inner-wrapper"></div>
+        <div class="background-inner-wrapper"></div>
+    </div>
+
+
+    <h1 class="title">Welcome to Sudoku Solver!</h1>
+    <div class="subtext1">
+        Unleash your inner Sherlock and conquer puzzles with our ultimate Sudoku solver!
+    </div>
+    <div class="subtext2">
+        Say goodbye to pencil mazes - Solve Sudokus like a pro, one click at a time! ️✨
+    </div>
+    
+    <a href="#upload-section">
+        <img class="scroll-down-arrow" src="static/img/down.png" alt="Scroll down">
+    </a>
+
+    <div class="image-text">
+        <img src="static/img/Launch.svg" alt="Image">
+        <div class="text-content">
+            <h1 class="title-text">Are you ready to conquer Sudoku puzzles effortlessly?</h1>
+            <p class="paragraph-text">Our Sudoku Solver is your key to unlocking the mystery of every grid. Whether you're a beginner or an experienced player, our tool is designed to make your Sudoku-solving experience smooth and enjoyable.</p>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="upload-section" id="upload-section">
+            <label for="image-upload" class="upload-input">
+                <div id="upload-prompt">
+                    <p class="drop-title"><strong>Drop images here</strong></p>
+                    <p>or</p>
+                    <img id="upload-icon" src="{{ url_for('static', filename='img/upload.svg') }}" alt="Upload Icon">
+                    <p>Click to Upload Image of Sudoku</p>
+                </div>
+                <img id="preview" src="" alt="Preview" style="display: none;">
+            </label>
+            <input id="image-upload" type="file" name="image" accept="image/*" style="display: none;" onchange="loadFile(event)">
+            <button class="solve-button" role="button" id="solve-button" onclick="solveSudoku()" style="display: none;"><span class="text">Solve</span></button>
+        </div>
+        <div id="solution-section" style="display: none;">
+            <h1>Sudoku Solved!</h1>
+            <img id="solved-sudoku" src="" alt="Solved Sudoku">
+            <img class="image3" src="static/img/star.png" alt="Star">
+        </div>
+    </div>
+    <div id="loading" style="display: none;">
+        <div class="loader"></div>
+    </div>
+
+    <script src="visualize.py"></script>
+
+    <script src="static/script.js"></script>
+
+    <div class="contact-developer">
+        <a href="https://github.com/shubhamparmar1">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Icon" style="width: 35px; height: 35px;">
+        </a>
+        <a href="https://www.linkedin.com/in/shubham-parmar-9876a0220/">
+            <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" alt="LinkedIn Icon" style="width: 35px; height: 35px;">
+        </a>
+    </div>
+
+    <div id="image2" >
+        <img class="image2" src="static/img/icon-presentation.svg" alt="Image">
+    </div>
+
+
+    <div class="contact-developer1">
+        Contact Developer
+    </div>
+    <div class="copyright">
+        &copy; 2023 All rights reserved by Developer
+    </div>
+</body>
+</html>
