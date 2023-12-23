@@ -51,8 +51,7 @@ Output:
 
 ## Preview of Website for Sudoku Solver.
 
-<img src="https://cdn.jsdelivr.net/gh/shubhamparmar1/Sudoku-Solver/images/Untitled%20design.gif" alt="Preview" height="250px"/>
-
+<img alt="Preview" width="400" src="https://cdn.jsdelivr.net/gh/shubhamparmar1/Sudoku-Solver/images/Preview_design.gif">
 
 ## Contribution
 
