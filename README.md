@@ -5,7 +5,7 @@
 - OpenCV
 - EasyOCR
 - Python 3.x
-- Web Technologys : HTML, CSS, JavaScript
+- Web Technologies : HTML, CSS, JavaScript
 
 # 1. Sudoku Image to Digital Array Converter
 
@@ -47,8 +47,7 @@ Output:
 
 # 3. Making Web App.
 
-- This Sudoku Solver Web App is a professional-grade implementation leveraging web technologies such as HTML, CSS, and JavaScript. Seamlessly designed and meticulously crafted, it provides an intuitive and efficient platform for solving Sudoku puzzles with a user-friendly interface, ensuring a seamless and enjoyable experience for enthusiasts and novices alike.
-
+- This Sudoku Solver Web App is a professional-grade implementation leveraging web technologies such as HTML, CSS, and JavaScript. It provides an intuitive and efficient platform for solving Sudoku puzzles with a user-friendly interface, ensuring a seamless and enjoyable experience for enthusiasts.
 ## Preview of Website for Sudoku Solver.
 
 <img alt="Preview" width="650px" src="https://github.com/shubhamparmar1/Sudoku-Solver/assets/134207725/fca7dbc0-d1e2-4144-b836-8045523360b9">
